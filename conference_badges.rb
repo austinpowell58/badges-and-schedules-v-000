@@ -30,7 +30,6 @@ def printer(attendees)
   array_names.each do |name|
     puts "Hello, my name is #{name}."
   end 
-  room = 1
   rooms = assign_rooms(attendees)
   rooms.each do |message|
     puts message
