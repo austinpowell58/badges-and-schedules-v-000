@@ -10,7 +10,7 @@ def assign_rooms(speakers)
   room = 1
   speakers.each do |speaker|
     message = "Hello, #{speaker}! You'll be assigned to room #{room}!"
-    array.push
+    array.push(message)
     room += 1 
   end 
 end 
