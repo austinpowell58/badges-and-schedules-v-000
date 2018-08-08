@@ -20,6 +20,10 @@ def assign_rooms(speakers)
 end 
 
 def badge_maker(name)
+    names.each do |name|
+    message = "Hello, my name is #{name}."
+  end 
+end 
   
 
 def printer(array)
