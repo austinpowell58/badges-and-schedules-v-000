@@ -31,7 +31,8 @@ def printer(attendees)
     badge_maker(name)
   end 
   room = 1
-  assign_rooms(attendees).each do |room|
+  rooms = assign_rooms(attendees)
+  rooms.each do |room|
     puts "Hello, #{attendees}! You'll be assigned to room #{room}!"
     room += 1
   end 
