@@ -32,8 +32,7 @@ def printer(attendees)
   end 
   room = 1
   rooms = assign_rooms(attendees)
-  rooms.each do |room|
-    puts "Hello, #{attendees}! You'll be assigned to room #{room}!"
-    room += 1
+  rooms.each do |message|
+    puts message
   end 
 end 
