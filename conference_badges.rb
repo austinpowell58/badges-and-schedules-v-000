@@ -28,7 +28,7 @@ end
 def printer(attendees)
   array_names = batch_badge_creator(attendees)
   array_names.each do |name|
-    puts badge_maker(name)
+    puts "Hello, my name is #{name}."
   end 
   room = 1
   rooms = assign_rooms(attendees)
