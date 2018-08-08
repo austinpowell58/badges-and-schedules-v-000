@@ -13,4 +13,5 @@ def assign_rooms(speakers)
     array.push(message)
     room += 1 
   end 
+  array
 end 
