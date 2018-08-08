@@ -19,6 +19,9 @@ def assign_rooms(speakers)
   array
 end 
 
+def badge_maker(name)
+  
+
 def printer(array)
   array.each do |element|
     puts element
