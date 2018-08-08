@@ -15,3 +15,9 @@ def assign_rooms(speakers)
   end 
   array
 end 
+
+def printer(array)
+  array.each do |element|
+    puts element
+  end 
+end 
